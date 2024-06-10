@@ -35,22 +35,10 @@ O trabalho foi baseado essencialmente no artigo "A Fast and Elitist Multiobjecti
 * detalhar as bibliotecas
 
 ### Referências bibliográficas:
-[1] Otimização Evolutiva Multiobjetivo: Implementação do
-Algoritmo NSGA-II José Ignacio Herrera [FEEC/UNICAMP] XXIX Congresso de Iniciação Científica da UNICAMP – 2021
-[2] A Fast and Elitist Multiobjective Genetic Algorithm:
-NSGA-II Kalyanmoy Deb, Associate Member, IEEE, Amrit Pratap, Sameer Agarwal, and T. Meyarivan IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION, VOL. 6, NO. 2, APRIL 2002
-[3] Um Estudo dos Parˆametros do Algoritmo NSGA-II com o
-operador SBX em Problemas de Otimiza¸c˜ao Estrutural
-Multiobjetivo
-Dˆenis E. C. Vargas1
-Instituto Federal de Educa¸c˜ao, Ciˆencia e Tecnologia do Sudeste de Minas Gerais, IF Sudeste MG,
-campus Rio Pomba, MG
-Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, v. 6, n. 2, 2018.
-Trabalho apresentado no XXXVIII CNMAC, Campinas - SP, 2018.
-[4] DOKUZ EYLÜL UNIVERSITY
-GRADUATE SCHOOL OF NATURAL AND APPLIED SCIENCES
-GENETIC ALGORITHM BASED OUTLIER
-DETECTION USING INFORMATION CRITERION by Özlem GÜRÜNLÜ ALMA June, 2009 İZMİR
+[1] HERRERA, José Ignacio. Otimização Evolutiva Multiobjetivo: Implementação do Algoritmo NSGA-II. In: XXIX Congresso de Iniciação Científica da UNICAMP, 2021, Campinas. Campinas: FEEC/UNICAMP, 2021.
+[2] DEB, Kalyanmoy; PRATAP, Amrit; AGARWAL, Sameer; MEYARIVAN, T. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation, v. 6, n. 2, p. 182-197, abr. 2002.
+[3] VARGAS, Dênis E. C. Um estudo dos parâmetros do algoritmo NSGA-II com o operador SBX em problemas de otimização estrutural multiobjetivo. Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, v. 6, n. 2, 2018. Trabalho apresentado no XXXVIII CNMAC, Campinas - SP, 2018. Rio Pomba: Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais, campus Rio Pomba, 2018.
+[4] GÜRÜNLÜ ALMA, Özlem. Genetic algorithm based outlier detection using information criterion. 2009. Dissertação (Mestrado) - Dokuz Eylül University, Graduate School of Natural and Applied Sciences, İzmir, 2009.
 
 
 
