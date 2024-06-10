@@ -36,8 +36,11 @@ O trabalho foi baseado essencialmente no artigo "A Fast and Elitist Multiobjecti
 
 ### Referências bibliográficas:
 [1] HERRERA, José Ignacio. Otimização Evolutiva Multiobjetivo: Implementação do Algoritmo NSGA-II. In: XXIX Congresso de Iniciação Científica da UNICAMP, 2021, Campinas. Campinas: FEEC/UNICAMP, 2021.
+
 [2] DEB, Kalyanmoy; PRATAP, Amrit; AGARWAL, Sameer; MEYARIVAN, T. A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE Transactions on Evolutionary Computation, v. 6, n. 2, p. 182-197, abr. 2002.
+
 [3] VARGAS, Dênis E. C. Um estudo dos parâmetros do algoritmo NSGA-II com o operador SBX em problemas de otimização estrutural multiobjetivo. Proceeding Series of the Brazilian Society of Computational and Applied Mathematics, v. 6, n. 2, 2018. Trabalho apresentado no XXXVIII CNMAC, Campinas - SP, 2018. Rio Pomba: Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais, campus Rio Pomba, 2018.
+
 [4] GÜRÜNLÜ ALMA, Özlem. Genetic algorithm based outlier detection using information criterion. 2009. Dissertação (Mestrado) - Dokuz Eylül University, Graduate School of Natural and Applied Sciences, İzmir, 2009.
 
 
