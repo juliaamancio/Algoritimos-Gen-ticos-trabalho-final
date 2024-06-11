@@ -66,7 +66,17 @@ $$-5 \leq x_i \leq 5$$ sendo (i = 2, ..., n)
 
 
 ### Estratégias adotadas para a execução do trabalho:
-O trabalho foi baseado essencialmente no artigo "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II", em que trata do algoritmo por meio de 3 pseudocódigos para executar a lógica por trás do modelo. Dessa maneira, esses pseudocódigos foram traduzidos para códigos em Python a fim de poder ser aplicado em uma população fixa. 
+O trabalho foi baseado essencialmente no artigo "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II", em que trata do algoritmo por meio de 3 pseudocódigos para executar a lógica por trás do modelo. Dessa maneira, esses pseudocódigos foram traduzidos para códigos em Python a fim de poder ser aplicado em uma população fixa. A explicação acerca dos pseudocódigos se encontra no __notebook didático__. As etapas seguidas foram obtidas da seguinte ordem:
+
+* __1)__ Inicializar uma população aleatória P: obter as fitness dos indivíduos em P; selecionar dos indivíduos em P por torneio binário 
+* __2)__ Gerar uma população Q descendente de P: cruzar indivíduos de P, gerando indivíduos de Q; aplicar mutações nos indivíduos em Q
+* __3)__ Criar uma população R = P + Q
+* __4)__ Rankear a população R
+* __5)__ Criar a próxima geração
+* __6)__ Calcular crowding-distance da frente
+* __7)__ Ordenar indivíduos de acordo com a crowding distance
+* __8)__ Remover quantos indivíduos forem necessários para a próxima geração ter o tamanho da população
+* __9)__ Atualizar a população P com a próxima geração
 
 ### Bibliotecas utilizadas 
 * __Random:__ usada para gerar números pseudoaleatórios.
