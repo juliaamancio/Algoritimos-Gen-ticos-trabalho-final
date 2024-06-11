@@ -6,9 +6,10 @@ Davi José, Gabriel Torquato e Júlia Amancio. :D
 
 ### Organização do repositório:
 * __Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, descrição do repositório e bibliotecas, além das referências bibliográficas.
-* __Notebook didático__: 
-* __Scripts__: Com um total de 3 scripts, cada um deles contém todas as funções utilizadas nos notebooks de problemas.
-* __Notebooks de problemas__: Com um total de 3 problemas, há a apresentação do problema utilizado em cada um deles e o uso das funções contidas no script, além dos resultados obtidos.
+* __Notebook didático__: Representa um notebook o qual explica o algoritmo do NSGA-II (por meio dos pseudocódigos) através das funções criadas na linguagem Python.
+* __Pasta 'Problema BINH1'__: Contém o script e o notebook o qual o problema BINH1 é aplicado, além dos resultados obtidos.
+* __Pasta 'Problema POLONI'__: Contém o script e o notebook o qual o problema POLONI é aplicado, além dos resultados obtidos.
+* __Pasta 'Problema ZDT4'__: Contém o script e o notebook o qual o problema POLONI é aplicado, além dos resultados obtidos. 
 
 ### Recomendação de leitura:
 * __1) Notebook didático__
