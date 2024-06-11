@@ -50,7 +50,7 @@ em que $x_1$ e $x_2$ são duas variáveis as quais estão restritas ao intervalo
 
 sendo i = 1,2. O objetivo resume-se à minimização das duas funções através do algoritmo genético também aplicado. 
 
-* __3) Problema ZDT4__: refere-se a duas funções matemáticas:
+* __3) Problema ZDT4__: Trata da minimização das funções:
 $$f_1(x) = x_1$$
 
 $$f_2(x) = g(x) \bigg[ 1 - \sqrt{\frac{x_1}{g(x)}} \bigg]$$
