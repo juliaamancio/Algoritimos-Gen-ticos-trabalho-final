@@ -1,5 +1,5 @@
 # Algoritmos Genéticos: Trabalho final
-Este repositório é referente à matérias de Redes Neurais e Algoritmos Genéticos do curso de Ciência e Tecnologia na Ilum Escola de Ciência. Matéria ministrada pelo professor Daniel Roberto Cassar.
+Este repositório é referente à matéria de Redes Neurais e Algoritmos Genéticos do curso de Ciência e Tecnologia na Ilum Escola de Ciência. Matéria ministrada pelo professor Daniel Roberto Cassar.
 
 ## Equipe 
 Davi José, Gabriel Torquato e Júlia Amancio. :D
