@@ -14,7 +14,9 @@ Davi José, Gabriel Torquato e Júlia Amancio. :D
 * __2) Notebook_original__
 
 ### Objetivo do trabalho: 
-A proposta do trabalho é utilizar Nondominated Sorting Genetic Algorithm II (NSGA II), que se consiste em um algoritmo evolutivo multiobjetivo. Para isso, foi selecionado o problema BINH1, sendo ele referente a duas funções matemáticas: 
+A proposta do trabalho é utilizar Nondominated Sorting Genetic Algorithm II (NSGA II), que se consiste em um algoritmo evolutivo multiobjetivo. Para isso, foi selecionado três problemas: o problema BINH1, o problema POLONI e o problema ZDT4. 
+
+* __1) Problema BINH1__: refere-se a duas funções matemáticas:
 $$f_1(x) = x_1^2 + x_2^2$$ 
 
 $$f_2(x) = (x_1 - 5)^2 + (x_2 - 5)^2$$
@@ -25,11 +27,20 @@ $$ -5 \leq x_i \leq 10$$
 
 sendo i = 1,2. O objetivo resume-se à minimização das duas funções através do algoritmo genético, encontrando e retornando um conjunto de valores que apresentam a característica de "não dominados", isto é, os melhores valores possíveis e bem distribuídos que possa atender ao problema multiobjetivo em questão.
 
+* __2) Problema POLONI__: refere-se a duas funções matemáticas:
+
+$$f_1(x) = 1 + (A_1 - B_1)^2 + (A_2 - B_2)^2$$
+
+$$f_2(x) = (x_1 + 3)^2 + (x_2 + 1)^2
+
+Sendo os coeficientes:
+$$A
+
+
+
 ### Estratégias adotadas para a execução do trabalho:
 O trabalho foi baseado essencialmente no artigo "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II", em que trata do algoritmo por meio de 3 pseudocódigos para executar a lógica por trás do modelo. Dessa maneira, esses pseudocódigos foram traduzidos para códigos em Python a fim de poder ser aplicado em uma população fixa. 
 
-#### Funções definidas:
-* detalhar cada funcao
 
 ### Bibliotecas utilizadas 
 * detalhar as bibliotecas
