@@ -5,9 +5,9 @@ Este repositório é referente à matéria de Redes Neurais e Algoritmos Genéti
 Davi José, Gabriel Torquato e Júlia Amancio. :D
 
 ### Organização do repositório:
-* __Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, apresentação do dataset, descrição do repositórios e bibliotecas, além das referências bibliográficas.
+* __Readme__: Contém as informações gerais sobre o trabalho abordado, levando em conta objetivo, descrição do repositório e bibliotecas, além das referências bibliográficas.
 * __Notebook didático__: 
-* __Scripts__: Com um total de 3 scripts, cada um deles contém todas as funções utilizadas no notebook principal.
+* __Scripts__: Com um total de 3 scripts, cada um deles contém todas as funções utilizadas nos notebooks de problemas.
 * __Notebooks de problemas__: Com um total de 3 problemas, há a apresentação do problema utilizado em cada um deles e o uso das funções contidas no script, além dos resultados obtidos.
 
 ### Recomendação de leitura:
@@ -17,9 +17,11 @@ Davi José, Gabriel Torquato e Júlia Amancio. :D
 * __4) Artigos de referência__
 
 ### Objetivo do trabalho: 
-A proposta do trabalho é utilizar Nondominated Sorting Genetic Algorithm II (NSGA II), que se consiste em um algoritmo evolutivo multiobjetivo. Para isso, foi selecionado três problemas: o problema BINH1, o problema POLONI e o problema ZDT4. Com isso, será encontrado e retornado um conjunto de valores que apresentam a característica de "não dominados", isto é, os melhores valores possíveis e bem distribuídos que possa atender ao problema multiobjetivo em questão.
+A proposta do trabalho é implementar em Python o Nondominated Sorting Genetic Algorithm II (NSGA II), descrito por Kalyanmoy Deb em "A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II" que consiste em um algoritmo evolutivo multiobjetivo que busca as soluções ótimas de Pareto. Para testar a capacidade da nossa implementação, foram selecionados três problemas de dois objetivos: o problema BINH1, o problema POLONI e o problema ZDT4. Com isso, será encontrado e retornado um conjunto de valores que apresentam a característica de "não dominados", isto é, os melhores valores possíveis e bem distribuídos que possa atender ao problema multiobjetivo em questão. O conjunto de soluções buscado é chamado de frente ótima de Pareto ou conjunto soluções ótimas de Pareto.
 
-* __1) Problema BINH1__: refere-se a duas funções matemáticas:
+__OBS:__ Os problemas matemáticos descritos abaixo foram utilizados porque sua solução ótima já é conhecida. Os resultados foram comparados com os da literatura.
+
+* __1) Problema BINH1__: é descrito como:
 $$f_1(x) = x_1^2 + x_2^2$$ 
 
 $$f_2(x) = (x_1 - 5)^2 + (x_2 - 5)^2$$
@@ -51,7 +53,7 @@ sendo i = 1,2. O objetivo resume-se à minimização das duas funções através
 * __3) Problema ZDT4__: refere-se a duas funções matemáticas:
 $$f_1(x) = x_1$$
 
-$$f_2(x) = g(x) \big [ 1 - \sqrt{\frac{x_1}{g(x)}} \big ]$$
+$$f_2(x) = g(x) \bigg[ 1 - \sqrt{\frac{x_1}{g(x)}} \bigg]$$
 
 sendo 
 
